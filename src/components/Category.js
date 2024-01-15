@@ -1,6 +1,6 @@
 import React from 'react'
 import {categories} from '../data/data.js'
-
+import "./Category.css"
 const Category = () => {
   return (
     <div className='max-w-[1240px] mx-auto px-4 py-12'>
@@ -8,7 +8,7 @@ const Category = () => {
         <div className='grid grid-cols-2 md:grid-cols-4 gap-6 py-8'>
         {categories.map((item, index) => (
                 <div key={index} className='bg-gray-100 rounded-lg p-4 flex justify-between items-center shadow-md cursor-pointer hover:bg-gray-200 '>
-                    <h2 className='font-bold sm:text-xl'>{item.name}</h2>
+                    <p className='font-bold sm:text-xl' id='titlecat'>{item.name}</p>
                     <img className='w-16' src={item.image} alt={item.name}/>
                 </div>
             ))}

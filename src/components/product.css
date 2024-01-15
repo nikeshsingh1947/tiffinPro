@@ -61,3 +61,17 @@
   }
 
 } */
+@media screen and (min-width: 384px)  {
+    #qty-cont{
+        margin-left: 25%;
+    }
+    #main-cont{
+        margin: auto;
+        text-align: center;
+        background-image: url("./angle.png");
+        
+        background-size: cover;
+        background-position: top left,bottom right;
+        
+     }
+} 

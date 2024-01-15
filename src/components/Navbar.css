@@ -3,6 +3,8 @@
 }
 #loginouter{
   padding-left: 90%;
+  width:25%;
+  height:40%;
 }
 #top-banner{
     width: 100%;
@@ -26,4 +28,17 @@
     cursor: pointer;
     color: red;  
     background: rgb(255, 255, 38);                                                       
+}
+@media only screen and (max-width: 390px) {
+    #logoouter {
+        /* Adjust the size as needed for mobile screens */
+        width: 45%;
+        height:50%;
+    }
+    #top-banner{
+        height:75px
+    }
+    #loginouter{
+        padding-left: 65%; 
+    }
 }

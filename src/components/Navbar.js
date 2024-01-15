@@ -29,7 +29,7 @@ const Navbar = () => {
         <CartButton onClick={"/cart"}/>
         <button  id='loginbtn' onClick={handlelogout}>{status ? `Logout ${user.user.name}` : `login/signup`} </button>
         </div >
-            <div style={{"width":"25%","height":"40%"}} id='logoouter' className="flex max-w-[1240px] mx-auto items-center p-4 justify-between">
+            <div  id='logoouter' className="flex max-w-[1240px] mx-auto items-center p-4 justify-between">
                 
                    <img style={{"width":"100%","height":"100%"}} src={Radhalogo} alt="Logo" />
                     
